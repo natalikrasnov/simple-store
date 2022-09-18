@@ -1,0 +1,17 @@
+.about_answer {
+    box-shadow: 0px 0px 1px 1px rgba(115, 192, 255, 0.3);
+    height: 230px;
+    width: 33%;
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    border-radius: 10px;
+    // text-align: center;
+
+
+    &:hover{
+        transform: scale(1.05);
+        background-color: white;
+        box-shadow: 1px 1px 20px 1px rgba(115, 192, 255, 0.3);
+    }
+}

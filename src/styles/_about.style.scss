@@ -1,0 +1,37 @@
+.about{
+    background-color: rgb(245, 248, 255);
+    padding: 4rem 5rem;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    overflow-wrap: break-word;
+    color: darkblue;
+
+    .line{
+        width: 30%;
+    }
+
+    p{
+        margin: 0;
+    }
+
+   
+
+    .content{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+        max-width: 1020px;
+        min-width: 1000px;
+        &>div {
+                    width: 20%;
+                    &:first-child{
+                        width:30%;
+                    }
+                }
+    }
+
+}

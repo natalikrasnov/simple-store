@@ -1,0 +1,29 @@
+.input{
+   position: relative;
+    color: white;
+    width: 40%;
+   .input_inner{
+        display: flex;
+        
+        input{
+            background-color: transparent;
+            outline: none;
+            border: none;
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            border-radius: 20px;
+            padding: 0.2rem 1rem;
+            width: 7
+            0%;
+        }
+
+        button{
+            color: white;
+            background: rgb(116, 196, 246);
+            border-radius: 10px;
+            font-size: 0.8rem;
+            position: relative;
+            right: -25px;
+            padding: 0.35rem 1rem;
+        }
+    }
+}
